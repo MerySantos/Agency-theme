@@ -10,3 +10,7 @@
 .fondo-portfolio .thumbnail {
   padding: 0;
 }
+
+.fondo-portfolio .thumbnail img {
+  width: 100%;
+}
