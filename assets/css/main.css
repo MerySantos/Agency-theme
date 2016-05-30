@@ -66,3 +66,76 @@
 .pie-pagina .color {
   color: #FED136;
 }
+
+.services h5 {
+  margin-top: 25px;
+}
+
+.services p {
+  margin-top: 15px;
+  color: #7E7877;
+}
+
+.services i.fa {
+  border-radius: 100%;
+  padding: 20px;
+  background-color: #FED136;
+  font-size: 50px;
+  color: #fff;
+  margin-top: 40px;
+  width: 95px;
+}
+
+.fondo-team {
+  background-color: #F7F7F7;
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+
+.team img {
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #fff;
+  width: 150px;
+}
+
+.icons-team i {
+  padding: 5px;
+  position: relative;
+  font-size: 15px;
+  background-color: #333333;
+  color: #fff;
+  border-radius: 100%;
+  margin: 0 10px;
+  width: 25px;
+}
+
+.text-team p {
+  margin-top: 50px;
+}
+
+.logos {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logos img {
+  margin-right: 15px;
+}
+
+.fondo-portfolio {
+  background-color: #F0F0F0;
+}
+
+.portafolio {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.fondo-portfolio .thumbnail {
+  padding: 0;
+}
+
+.fondo-portfolio .thumbnail img {
+  width: 100%;
+}
