@@ -1,0 +1,35 @@
+.fondo-team {
+  background-color: #F7F7F7;
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+
+.team img {
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #fff;
+  width: 150px;
+}
+
+.icons-team i {
+  padding: 5px;
+  position: relative;
+  font-size: 15px;
+  background-color: #333333;
+  color: #fff;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+
+.text-team p {
+  margin-top: 50px;
+}
+
+.logos {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logos img {
+  margin-right: 15px;
+}
