@@ -2,8 +2,8 @@ $color_negro:#333333;
 $color_plomo:#BEBEBE;
 $color_amarillo:#FED136;
 $color_blanco:#fff;
-<<<<<<< HEAD
 $color-texto:#7E7877;
+$color_plomoclaro:#F7F7F7;
 
 // services
 .services h5{
@@ -22,11 +22,6 @@ $color-texto:#7E7877;
 	margin-top: 40px;
 	width: 95px;
 }
-
-
-
-=======
-$color_plomoclaro:#F7F7F7;
  // inicio our amazing team
  .fondo-team{
  	background-color: $color_plomoclaro;
@@ -60,7 +55,6 @@ $color_plomoclaro:#F7F7F7;
  }
  // fin our amazing team
 // portfolio
-
  .fondo-portfolio{
  	background-color: #F0F0F0;
  }
@@ -72,4 +66,4 @@ $color_plomoclaro:#F7F7F7;
  	.thumbnail{padding: 0;
  		img{width:100%}}
  }
->>>>>>> c02074f686d917fe07538cd01159352a5bb01f2d
+
