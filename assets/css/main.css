@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .fondo-team {
   background-color: #F7F7F7;
   padding-top: 55px;
@@ -33,7 +32,8 @@
 
 .logos img {
   margin-right: 15px;
-=======
+}
+
 .fondo-portfolio {
   background-color: #F0F0F0;
 }
@@ -49,5 +49,4 @@
 
 .fondo-portfolio .thumbnail img {
   width: 100%;
->>>>>>> 0d96d03f675c1a94291d9d4164fbf8848eefa902
 }
