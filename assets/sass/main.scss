@@ -2,6 +2,8 @@ $color_negro:#333333;
 $color_plomo:#BEBEBE;
 $color_amarillo:#FED136;
 $color_blanco:#fff;
+$color-texto:#7E7877;
+$color_plomoclaro:#F7F7F7;
 
 // HERO SECTION
 // *{outline: 1px solid red;}
@@ -43,6 +45,9 @@ $color_blanco:#fff;
 	padding: 10px 20px;
 }
 @media screen and (max-width: 750px){
+	#hero-section{
+		height: 600px;
+	}
 	.menu{
 		margin-top: 20px;
 	}
@@ -63,3 +68,119 @@ $color_blanco:#fff;
 		padding: 0;
 	}
 }
+// FIN DE HEADER
+// services
+.services{
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+.services h5{
+	margin-top: 25px;
+}
+.services p{
+	margin-top: 15px;
+	color: $color_texto;
+}
+.services i.fa{
+	border-radius: 100%;
+	padding: 20px;
+	background-color: $color_amarillo;
+	font-size: 50px;
+	color: $color_blanco;
+	margin-top: 40px;
+	width: 95px;
+}
+// FIN DE SERVICES
+// portfolio
+ .fondo-portfolio{
+ 	background-color: #F0F0F0;
+ }
+ .portafolio{
+ 	padding-top:5%;
+ 	padding-bottom:5%;
+ }
+ .fondo-portfolio {
+ 	.thumbnail{padding: 0;
+ 		img{width:100%}}
+ }
+ // FIN DE PORTAFOLIO
+ // ABOUT
+ // TERMINA ABOUT
+  // inicio our amazing team
+ .fondo-team{
+ 	background-color: $color_plomoclaro;
+ 	padding-top: 55px;
+ 	padding-bottom: 100px;
+ }
+ .team img{
+ 	border-radius: 100%;
+ 	padding: 5px;
+ 	background-color: $color_blanco;
+ 	width: 150px;
+ }
+ .icons-team i{
+ 	padding: 5px;
+ 	position: relative;
+ 	font-size: 15px;
+ 	background-color: $color_negro;
+ 	color: $color_blanco;
+ 	border-radius: 100%;
+ 	margin:0 10px;
+ 	width: 25px;
+ 	margin-bottom: 5px;
+ }
+ .text-team p{
+ 	margin-top: 50px;
+ }
+ .logos{
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ }
+ .logos img{
+ 	margin-right: 15px;
+ }
+ // fin our amazing team
+ // CONTACTO
+.contact{
+	background-color:$color_negro;
+    padding: 100px 0;}
+.contact .titulo{text-align:center;
+    color:$color_blanco;}
+.contact .columnas{margin:50px 0 30px 0;}
+.contact input{
+	width: 100%;
+	padding:10px;
+	border-radius:5px;
+	margin-bottom:15px;}
+.contact textarea{
+    width: 100%;
+    height: 162px;
+	padding:10px;
+	border-radius:5px;}
+.contact .buton{text-align:center;}
+.contact button{
+	background-color:$color_amarillo;
+	color:$color_blanco;
+	border-radius:5px;
+	padding:10px;}
+// FIN DE CONTACTO
+// PIE DE PAGINA
+.pie-pagina{
+	text-align:center;
+	padding:20px 0;}
+.pie-pagina .redes{padding:5px 0}
+.pie-pagina .redes i{margin-top:10px;}
+.pie-pagina .redes a{color:$color_blanco;}
+.pie-pagina .redes .red{
+	height:35px;width:35px;
+	background-color:$color_negro;
+    display: inline-block;
+    border-radius:50%;
+    margin-right: 15px;}
+.pie-pagina .color{
+	color:$color_amarillo;}
+
+
+
+
+
