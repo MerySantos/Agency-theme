@@ -2,7 +2,26 @@ $color_negro:#333333;
 $color_plomo:#BEBEBE;
 $color_amarillo:#FED136;
 $color_blanco:#fff;
+$color-texto:#7E7877;
 $color_plomoclaro:#F7F7F7;
+
+// services
+.services h5{
+	margin-top: 25px;
+}
+.services p{
+	margin-top: 15px;
+	color: $color_texto;
+}
+.services i.fa{
+	border-radius: 100%;
+	padding: 20px;
+	background-color: $color_amarillo;
+	font-size: 50px;
+	color: $color_blanco;
+	margin-top: 40px;
+	width: 95px;
+}
  // inicio our amazing team
  .fondo-team{
  	background-color: $color_plomoclaro;
@@ -37,7 +56,6 @@ $color_plomoclaro:#F7F7F7;
  }
  // fin our amazing team
 // portfolio
-
  .fondo-portfolio{
  	background-color: #F0F0F0;
  }
@@ -49,3 +67,4 @@ $color_plomoclaro:#F7F7F7;
  	.thumbnail{padding: 0;
  		img{width:100%}}
  }
+

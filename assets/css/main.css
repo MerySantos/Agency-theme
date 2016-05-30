@@ -1,3 +1,22 @@
+.services h5 {
+  margin-top: 25px;
+}
+
+.services p {
+  margin-top: 15px;
+  color: #7E7877;
+}
+
+.services i.fa {
+  border-radius: 100%;
+  padding: 20px;
+  background-color: #FED136;
+  font-size: 50px;
+  color: #fff;
+  margin-top: 40px;
+  width: 95px;
+}
+
 .fondo-team {
   background-color: #F7F7F7;
   padding-top: 55px;
