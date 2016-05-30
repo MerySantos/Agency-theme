@@ -1,0 +1,62 @@
+#hero-section {
+  background-image: url("../../img/header-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#hero-section h3 {
+  color: #FED136;
+  padding: 10px 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.menu {
+  margin-top: 35px;
+}
+
+.menu a {
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.menu a:hover {
+  color: #FED136;
+  text-decoration: none;
+}
+
+.header-descripcion .jumbotron {
+  background-color: transparent;
+  margin-top: 200px;
+}
+
+.header-descripcion h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.header-descripcion button {
+  background-color: #FED136;
+  border: #FED136;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .menu {
+    margin-top: 20px;
+  }
+  .menu li {
+    padding: 0px;
+    font-size: 10px;
+  }
+  .menu a {
+    padding: 5px 0;
+  }
+  .header-descripcion .jumbotron {
+    margin-top: 50px;
+  }
+  .header-descripcion h1 {
+    font-size: 35px;
+    padding: 0;
+  }
+}
