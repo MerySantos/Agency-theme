@@ -3,6 +3,25 @@ $color_plomo:#BEBEBE;
 $color_amarillo:#FED136;
 $color_blanco:#fff;
 $color_plomoclaro:#F7F7F7;
+// portfolios
+.fondo-portfolio{
+ 	background-color:$color_plomoclaro;
+ 	padding-bottom: 5%;
+ 	.row-uno{
+ 		padding-top:5%;
+ 		padding-bottom:3%;
+ 		}
+ }
+.fondo-portfolio {
+ 	.thumbnail{
+ 		padding: 0;
+ 		padding-bottom:5%;
+ 		img{width:100%}
+ 		}
+ }
+.caption h5{margin-bottom:0px;}
+.caption small{color:gray;font-family:serif;}
+// fin portafolio
  // inicio our amazing team
  .fondo-team{
  	background-color: $color_plomoclaro;
@@ -35,16 +54,3 @@ $color_plomoclaro:#F7F7F7;
  	margin-right: 15px;
  }
  // fin our amazing team
-// portfolio
-
- .fondo-portfolio{
- 	background-color: #F0F0F0;
- }
- .portafolio{
- 	padding-top:5%;
- 	padding-bottom:5%;
- }
- .fondo-portfolio {
- 	.thumbnail{padding: 0;
- 		img{width:100%}}
- }

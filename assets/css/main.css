@@ -1,3 +1,31 @@
+.fondo-portfolio {
+  background-color: #F7F7F7;
+  padding-bottom: 5%;
+}
+
+.fondo-portfolio .row-uno {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.fondo-portfolio .thumbnail {
+  padding: 0;
+  padding-bottom: 5%;
+}
+
+.fondo-portfolio .thumbnail img {
+  width: 100%;
+}
+
+.caption h5 {
+  margin-bottom: 0px;
+}
+
+.caption small {
+  color: gray;
+  font-family: serif;
+}
+
 .fondo-team {
   background-color: #F7F7F7;
   padding-top: 55px;
@@ -32,21 +60,4 @@
 
 .logos img {
   margin-right: 15px;
-}
-
-.fondo-portfolio {
-  background-color: #F0F0F0;
-}
-
-.portafolio {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.fondo-portfolio .thumbnail {
-  padding: 0;
-}
-
-.fondo-portfolio .thumbnail img {
-  width: 100%;
 }
