@@ -1,3 +1,72 @@
+.contact {
+  background-color: #333333;
+  padding: 100px 0;
+}
+
+.contact .titulo {
+  text-align: center;
+  color: #fff;
+}
+
+.contact .columnas {
+  margin: 50px 0 30px 0;
+}
+
+.contact input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contact textarea {
+  width: 100%;
+  height: 162px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact .buton {
+  text-align: center;
+}
+
+.contact button {
+  background-color: #FED136;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.pie-pagina {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.pie-pagina .redes {
+  padding: 5px 0;
+}
+
+.pie-pagina .redes i {
+  margin-top: 10px;
+}
+
+.pie-pagina .redes a {
+  color: #fff;
+}
+
+.pie-pagina .redes .red {
+  height: 35px;
+  width: 35px;
+  background-color: #333333;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.pie-pagina .color {
+  color: #FED136;
+}
+
 .services h5 {
   margin-top: 25px;
 }

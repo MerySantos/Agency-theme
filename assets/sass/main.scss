@@ -2,6 +2,44 @@ $color_negro:#333333;
 $color_plomo:#BEBEBE;
 $color_amarillo:#FED136;
 $color_blanco:#fff;
+
+.contact{
+	background-color:$color_negro;
+    padding: 100px 0;}
+.contact .titulo{text-align:center;
+    color:$color_blanco;}
+.contact .columnas{margin:50px 0 30px 0;}
+.contact input{
+	width: 100%;
+	padding:10px;
+	border-radius:5px;
+	margin-bottom:15px;}
+.contact textarea{
+    width: 100%;
+    height: 162px;
+	padding:10px;
+	border-radius:5px;}
+.contact .buton{text-align:center;}
+.contact button{
+	background-color:$color_amarillo;
+	color:$color_blanco;
+	border-radius:5px;
+	padding:10px;}
+.pie-pagina{
+	text-align:center;
+	padding:20px 0;}
+.pie-pagina .redes{padding:5px 0}
+.pie-pagina .redes i{margin-top:10px;}
+.pie-pagina .redes a{color:$color_blanco;}
+.pie-pagina .redes .red{
+	height:35px;width:35px;
+	background-color:$color_negro;
+    display: inline-block;
+    border-radius:50%;
+    margin-right: 15px;}
+.pie-pagina .color{
+	color:$color_amarillo;}
+// =======
 $color-texto:#7E7877;
 $color_plomoclaro:#F7F7F7;
 
