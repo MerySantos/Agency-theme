@@ -113,18 +113,18 @@ $color_plomoclaro:#F7F7F7;
  // ABOUT
  // TERMINA ABOUT
   // inicio our amazing team
- .fondo-team{
+.fondo-team{
  	background-color: $color_plomoclaro;
  	padding-top: 55px;
  	padding-bottom: 100px;
  }
- .team img{
+.team img{
  	border-radius: 100%;
  	padding: 5px;
  	background-color: $color_blanco;
  	width: 150px;
  }
- .icons-team i{
+.icons-team i{
  	padding: 5px;
  	position: relative;
  	font-size: 15px;
@@ -133,16 +133,16 @@ $color_plomoclaro:#F7F7F7;
  	border-radius: 100%;
  	margin:0 10px;
  	width: 25px;
+}
  	margin-bottom: 5px;
- }
- .text-team p{
+.text-team p{
  	margin-top: 50px;
  }
- .logos{
+.logos{
  	margin-top: 30px;
  	margin-bottom: 30px;
  }
- .logos img{
+.logos img{
  	margin-right: 15px;
  }
  // fin our amazing team
