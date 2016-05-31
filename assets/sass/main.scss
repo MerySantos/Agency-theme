@@ -6,8 +6,11 @@ $color-texto:#7E7877;
 $color_plomoclaro:#F7F7F7;
 $fuente:"Roboto", sans-serif;
 
-body{
+h1, h5, h6, {
 	font-family: $fuente;
+}
+p{
+	font-family: serif;
 }
 // HERO SECTION
 // *{outline: 1px solid red;}
