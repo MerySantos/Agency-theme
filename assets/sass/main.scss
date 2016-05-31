@@ -92,18 +92,24 @@ $color_plomoclaro:#F7F7F7;
 }
 // FIN DE SERVICES
 // portfolio
- .fondo-portfolio{
- 	background-color: #F0F0F0;
+.fondo-portfolio{
+ 	background-color:$color_plomoclaro;
+ 	padding-bottom: 5%;
+ 	.row-uno{
+ 		padding-top:5%;
+ 		padding-bottom:3%;
+ 		}
  }
- .portafolio{
- 	padding-top:5%;
- 	padding-bottom:5%;
+.fondo-portfolio {
+ 	.thumbnail{
+ 		padding: 0;
+ 		padding-bottom:5%;
+ 		img{width:100%}
+ 		}
  }
- .fondo-portfolio {
- 	.thumbnail{padding: 0;
- 		img{width:100%}}
- }
- // FIN DE PORTAFOLIO
+.caption h5{margin-bottom:0px;}
+.caption small{color:gray;font-family:serif;}
+// fin portafolio
  // ABOUT
  // TERMINA ABOUT
   // inicio our amazing team
@@ -179,8 +185,4 @@ $color_plomoclaro:#F7F7F7;
     margin-right: 15px;}
 .pie-pagina .color{
 	color:$color_amarillo;}
-
-
-
-
 
