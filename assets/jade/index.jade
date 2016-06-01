@@ -7,12 +7,13 @@ html(lang="en")
 		link(rel="stylesheet", href="assets/css/main.css")
 		link(rel="stylesheet", href="assets/css/bootstrap.min.css")
 		link(rel="stylesheet", href="assets/font-awesome/css/font-awesome.min.css")
-
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css")
 		link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
 
-	
-		script(src="assets/js/jquery-1.12.3.min.js")
+		script(src="assets/js/jquery.js")
 		script(src="assets/js/bootstrap.min.js")
+		
+
 	body
 		#hero-section
 			.container
@@ -118,15 +119,51 @@ html(lang="en")
 								small
 									em Website Desin
 		#about
-			h1 ABOUT
-			P Lorem
+			h1.text-center ABOUT
+			P.text-center
+				em Lorem ipsum dolor sit amet
+			br
 			.container
+				// PArte2
+				hr.linea-about
 				.row
-					.col-sm-5
-					.col-sm-2
-					.col-sam-5
+					.descr-historia.pull-left.text-right
+						h5 2009 - 2011
+						h5 Our Humble Beginning
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempori ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniameiusmo temporincididunt ut labore et dolore magna aliqua.
+
+					img.circulo-about.img-about.pull-left(src="img/about/1.jpg")
+				//- hr.linea-about
+				.row
+					.descr-historia.pull-right
+						h5 MARCH 2011
+						h5 An agency is Born
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempori ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniameiusmo temporincididunt ut labore et dolore magna aliqua.
+
+					img.circulo-about.img-about.pull-right(src="img/about/2.jpg")
+				//- hr.linea-about
+				.row
+					.descr-historia.pull-left.text-right
+						h5 DECEMBER 2012
+						h5 Transition to Full Service
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempori ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniameiusmo temporincididunt ut labore et dolore magna aliqua.
+
+					img.circulo-about.img-about.pull-left(src="img/about/3.jpg")
+				//- hr.linea-about
+				.row
+					.descr-historia.pull-right
+						h5 JULY 2014
+						h5 Phase two expansion 
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempori ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,eiusmo temporincididunt ut labore et dolore magna aliqua.
+					img.circulo-about.img-about.pull-right(src="img/about/4.jpg")
+				//- hr.linea-about
+				.row.text-center
+					img#our-story.circulo-about.img-about(src="img/about/5.png")
+						
+
+					//parte2	
 		#amazing-team
-			.fondo-team
+		.fondo-team
 			.container
 				h2.text-center OUR AMAZING TEAM
 				p.text-center <em>Lorem ipsum dolor sit amet</em>
@@ -156,7 +193,7 @@ html(lang="en")
 				.row.text-team
 					p.text-center Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br>magna sed do eiusmod tempor incididunt ut labore et dolore magna
 				</center>
-			.row.logos
+		.row.logos
 				<center>
 				img(src="img/logos/envato.jpg")
 				img(src="img/logos/designmodo.jpg")
@@ -171,7 +208,7 @@ html(lang="en")
 					.titulo
 						h1 CONTACT US
 						P
-						em Lorem ipsum dolor sit amet consectetur.
+							em Lorem ipsum dolor sit amet consectetur.
 					.columnas
 						.col-md-6
 							input(type="text", placeholder="YOUR NAME", required)

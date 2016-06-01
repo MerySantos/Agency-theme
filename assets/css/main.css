@@ -1,3 +1,11 @@
+h1, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: serif;
+}
+
 #hero-section {
   background-image: url("../../img/header-bg.jpg");
   background-size: cover;
@@ -155,6 +163,67 @@
 .caption small {
   color: gray;
   font-family: serif;
+}
+
+h5 {
+  font-weight: 700 !important;
+}
+
+#about p {
+  color: #BEBEBE;
+}
+
+.linea-about {
+  position: absolute;
+  left: 50%;
+  z-index: -10;
+  width: 3px;
+  height: 150%;
+  background: #F7F7F7;
+  margin: 0px auto;
+}
+
+.container .row {
+  margin: 5%;
+}
+
+.circulo-about {
+  border-radius: 50%;
+  border: 5px solid #F7F7F7;
+}
+
+.img-about {
+  width: 15%;
+  margin-top: 2%;
+}
+
+.descr-historia {
+  width: 42.5%;
+  padding: 2% 4%;
+}
+
+.texto-historia {
+  width: 200px;
+  height: 200px;
+}
+
+#our-story {
+  background: #FED136;
+  padding: 20% auto;
+}
+
+@media screen and (max-width: 750px) {
+  .img-about {
+    width: 30%;
+    margin-top: 4%;
+  }
+  .descr-historia {
+    width: 70%;
+    text-align: justify !important;
+  }
+  .linea-about {
+    display: none;
+  }
 }
 
 .fondo-team {
