@@ -15,33 +15,37 @@ html(lang="en")
 		
 
 	body
-		#hero-section
-			.container
-				.row
-					.col-md-4
-						h3 Start Bootstrap
-					.col-md-8
-						nav
-							#toogle-menu.fa.fa-bars
-							ul.menu
-								li 
-									a.link-menu(href="") SERVICES
+		section#Home
+			#hero-section
+				nav.navbar.navbar-custom.navbar-fixed-top
+					.container
+						.navbar-header
+							button.navbar-toggle.collapsed(type="button",class="navbar-toggle",data-toggle="collapse",data-target="#nabar-1")
+								i.fa.fa-bars
+							a.navbar-brand(href="#page-top") Start Bootstrap 
+						.collapse.navbar-collapse#nabar-1
+							ul.nav.navbar-nav.navbar-right
+								li.hidden
+									a.page-scroll(href="#page-top")
 								li
-									a.link-menu(href="") PORTAFOLIO
+									a.page-scroll(href="#Servicios") Services
 								li
-									a.link-menu(href="") ABOUT
+									a.page-scroll(href="#Portafolio") Portfolio
 								li
-									a.link-menu(href="") TEAM
+									a.page-scroll(href="#About") About
 								li
-									a.link-menu(href="") CONTACT
-									
-				.row.text-center.header-descripcion
-					.jumbotron
-						h2 Welcome To Our Studio!
-						h1 IT'S NICE TO MEET YOU
-						button 
-							strong TELL ME MORE
-		#services
+									a.page-scroll(href="#Team") Team
+								li
+									a.page-scroll(href="#Contact") Contact
+				.container				
+						.row.text-center.header-descripcion
+							.jumbotron
+								h2 Welcome To Our Studio!
+								h1 IT'S NICE TO MEET YOU
+								button 
+									strong TELL ME MORE
+		section#Servicios
+			#services
 			.container.services
 				h2.text-center <strong>SERVICES</strong>
 				p.text-center <em>Lorem ipsum dolor sit amet consectetur.</em>
@@ -60,8 +64,9 @@ html(lang="en")
 						h5.text-center<strong>Web Security</strong>
 						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 				</center>
-		#portafolio
-		.fondo-portfolio
+		section#Portafolio
+			#portafolio
+			.fondo-portfolio
 			#portafolio.container.text-center.portafolio
 				.row.row-uno
 					h2
@@ -118,7 +123,8 @@ html(lang="en")
 									b Dreams
 								small
 									em Website Desin
-		#about
+		section#About
+			#about
 			h1.text-center ABOUT
 			P.text-center
 				em Lorem ipsum dolor sit amet
@@ -162,9 +168,10 @@ html(lang="en")
 						
 
 					//parte2	
-		#amazing-team
-		.fondo-team
-			.container
+		section#Team
+			#amazing-team
+			.fondo-team
+				.container
 				h2.text-center OUR AMAZING TEAM
 				p.text-center <em>Lorem ipsum dolor sit amet</em>
 				<center>
@@ -190,21 +197,21 @@ html(lang="en")
 						i.fa.fa-twitter
 						i.fa.fa-facebook
 						i.fa.fa-linkedin
-				.row.text-team
-					p.text-center Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br>magna sed do eiusmod tempor incididunt ut labore et dolore magna
+					.row.text-team
+							p.text-center Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br>magna sed do eiusmod tempor incididunt ut labore et dolore magna
 				</center>
-		.row.logos
+			.row.logos
 				<center>
 				img(src="img/logos/envato.jpg")
 				img(src="img/logos/designmodo.jpg")
 				img(src="img/logos/themeforest.jpg")
 				img(src="img/logos/creative-market.jpg")
 				</center>
-
-		#contact-us
-		.contact
-			.container
-				.row
+		section#Contact
+			#contact-us
+			.contact
+				.container
+					.row
 					.titulo
 						h1 CONTACT US
 						P

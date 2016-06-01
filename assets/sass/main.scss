@@ -15,57 +15,89 @@ p{
 }
 // HERO SECTION
 // *{outline: 1px solid red;}
+
 #hero-section{
 	background-image: url("../../img/header-bg.jpg");
 	background-size: cover;
 	height: 100vh;
 	color: $color_blanco;
 }
-#hero-section h3{
-	color:$color_amarillo;
-	padding: 10px 20px;
+.navbar-header a{
 	font-family: 'Kaushan Script', cursive;
 }
-.menu{
-	padding-left:0;
-	margin-top:0;
-	margin-bottom:0;
-	list-style: none;
-	background:none;
-	display:none;
-	@media screen and(min-width:750px) {
-		display: flex;
-		li{
-			text-align:center;
-			border-right:1px solid rgba(#000, .1);
+.navbar-custom {
+	margin-bottom: 0;
+	border-bottom: 1px solid rgba(white, 0.3);
+	text-transform: uppercase;
+	background-color: rgba($color_negro, .5);
+	font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	.navbar-toggle {
+		padding: 4px 6px;
+		font-size: 18px;
+		color: $color_amarillo;
+		&:focus,
+		&:active {
+			outline: none;
 		}
 	}
-	li{
-		flex: auto;
-		border-bottom:1px solid rgba(#000,.2);
-		&:last-child{border:none;}
+    .navbar-brand {
+		font-weight: 700;
+		color: $color_amarillo;
+		font-size: 1.2em;
+		&:focus {
+		    outline: none;
+		}
 	}
-	.link-menu{
-		color:#fff;
-		text-decoration: none;
-		line-height: 2;
-		font-size: 1.5em;
-		display: block;
-		&:hover{background:rgba(#74a3db, .5);}
+	a {
+		color:$color_blanco;
 	}
-}
-#toggle-menu{
-	background:#0171c0;
-	line-height:2.5;
-	color:#fff;
-	font-size:2em;
-	padding-left:15em;
-	cursor: pointer;
-	@media screen and(min-width:750px) {
-		display: none;
+	.nav {
+		li {
+			a {
+				-webkit-transition: background .3s ease-in-out;
+				-moz-transition: background .3s ease-in-out;
+				transition: background .3s ease-in-out;
+				&:hover {
+					color:$color_amarillo;
+					outline: none;
+					background-color: transparent;
+				}
+				&:focus,
+				&:active {
+					outline: none;
+					background-color: $color_amarillo;
+				}
+			}
+			&.active {
+				outline: none;
+				a {
+					background-color: rgba(white, 0.3);
+					&:hover {
+						color: $color_amarillo
+					}
+				}
+			}
+		}
+	}
+	@media(min-width:768px) {
+		padding: 20px 0;
+		border-bottom: none;
+		letter-spacing: 1px;
+		-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		transition: background .5s ease-in-out,padding .5s ease-in-out;
+		&.top-nav-collapse {
+			padding: 0;
+			background: $color_negro;
+			border-bottom: 1px solid rgba($color_amarillo,1);
+		}
+		.navbar-custom{
+			width: 100%;
+		}
 	}
 }
 
+// fin menu
 .header-descripcion{
 	.jumbotron{
 	background-color: transparent;
@@ -83,18 +115,7 @@ p{
 }
 @media screen and (max-width: 750px){
 	#hero-section{
-		height: 600px;
-	}
-	.menu{
-		margin-top: 20px;
-	}
-	.menu li{
-		padding: 0px;
-		font-size: 10px;
-	}
-	.menu a{
-		padding: 5px 0;
-	}
+		height: 600px;}
 	.header-descripcion{
 	.jumbotron{
 	margin-top:50px;
@@ -193,6 +214,10 @@ p{
 }
 .text-team p{
  	margin-top: 50px;
+ @media screen and(max-width:750px) {
+ 	padding: 0 40px;
+ 	
+ }
  }
 .logos{
  	margin-top: 30px;
@@ -205,7 +230,7 @@ p{
  // CONTACTO
 .contact{
 	background-color:$color_negro;
-    padding: 100px 0;}
+    padding: 10px 0 100px;}
 .contact .titulo{text-align:center;
     color:$color_blanco;}
 .contact .columnas{margin:50px 0 30px 0;}

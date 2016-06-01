@@ -13,35 +13,38 @@
     <script src="assets/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div id="hero-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Start Bootstrap</h3>
-          </div>
-          <div class="col-md-8">
-            <nav>
-              <div id="toogle-menu" class="fa fa-bars"></div>
-              <ul class="menu">
-                <li> <a href="" class="link-menu">SERVICES</a></li>
-                <li><a href="" class="link-menu">PORTAFOLIO</a></li>
-                <li><a href="" class="link-menu">ABOUT</a></li>
-                <li><a href="" class="link-menu">TEAM</a></li>
-                <li><a href="" class="link-menu">CONTACT</a></li>
+    <section id="Home">
+      <div id="hero-section">
+        <nav class="navbar navbar-custom navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" data-toggle="collapse" data-target="#nabar-1" class="navbar-toggle collapsed navbar-toggle"><i class="fa fa-bars"></i></button><a href="#page-top" class="navbar-brand">Start Bootstrap </a>
+            </div>
+            <div id="nabar-1" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="hidden"><a href="#page-top" class="page-scroll"></a></li>
+                <li><a href="#Servicios" class="page-scroll">Services</a></li>
+                <li><a href="#Portafolio" class="page-scroll">Portfolio</a></li>
+                <li><a href="#About" class="page-scroll">About</a></li>
+                <li><a href="#Team" class="page-scroll">Team</a></li>
+                <li><a href="#Contact" class="page-scroll">Contact</a></li>
               </ul>
-            </nav>
+            </div>
           </div>
-        </div>
-        <div class="row text-center header-descripcion">
-          <div class="jumbotron">
-            <h2>Welcome To Our Studio!</h2>
-            <h1>IT'S NICE TO MEET YOU</h1>
-            <button> <strong>TELL ME MORE</strong></button>
+        </nav>
+        <div class="container">				
+          <div class="row text-center header-descripcion">
+            <div class="jumbotron">
+              <h2>Welcome To Our Studio!</h2>
+              <h1>IT'S NICE TO MEET YOU</h1>
+              <button> <strong>TELL ME MORE</strong></button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="services">
+    </section>
+    <section id="Servicios">
+      <div id="services"></div>
       <div class="container services">
         <h2 class="text-center"><strong>SERVICES</strong></h2>
         <p class="text-center"><em>Lorem ipsum dolor sit amet consectetur.</em></p><center>
@@ -60,9 +63,10 @@
           </div>
         </div></center>
       </div>
-    </div>
-    <div id="portafolio"></div>
-    <div class="fondo-portfolio">
+    </section>
+    <section id="Portafolio">
+      <div id="portafolio"></div>
+      <div class="fondo-portfolio"></div>
       <div id="portafolio" class="container text-center portafolio">
         <div class="row row-uno">
           <h2><b>PORTFOLIO</b></h2>
@@ -115,8 +119,9 @@
           </div>
         </div>
       </div>
-    </div>
-    <div id="about">
+    </section>
+    <section id="About">
+      <div id="about"></div>
       <h1 class="text-center">ABOUT</h1>
       <P class="text-center"><em>Lorem ipsum dolor sit amet</em></P><br>
       <div class="container">
@@ -154,10 +159,11 @@
           <!--parte2	-->
         </div>
       </div>
-    </div>
-    <div id="amazing-team"></div>
-    <div class="fondo-team">
-      <div class="container">
+    </section>
+    <section id="Team">
+      <div id="amazing-team"></div>
+      <div class="fondo-team">
+        <div class="container"></div>
         <h2 class="text-center">OUR AMAZING TEAM</h2>
         <p class="text-center"><em>Lorem ipsum dolor sit amet</em></p><center>
         <div class="row team">
@@ -173,17 +179,18 @@
             <h5><strong>Diana Pertersen</strong></h5>
             <h6>Lead Developer</h6><i class="fa fa-twitter"></i><i class="fa fa-facebook"></i><i class="fa fa-linkedin"></i>
           </div>
-        </div>
-        <div class="row text-team">
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br>magna sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+          <div class="row text-team">
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br>magna sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+          </div>
         </div></center>
       </div>
-    </div>
-    <div class="row logos"><center><img src="img/logos/envato.jpg"><img src="img/logos/designmodo.jpg"><img src="img/logos/themeforest.jpg"><img src="img/logos/creative-market.jpg"></center></div>
-    <div id="contact-us"></div>
-    <div class="contact">
-      <div class="container">
-        <div class="row">
+      <div class="row logos"><center><img src="img/logos/envato.jpg"><img src="img/logos/designmodo.jpg"><img src="img/logos/themeforest.jpg"><img src="img/logos/creative-market.jpg"></center></div>
+    </section>
+    <section id="Contact">
+      <div id="contact-us"></div>
+      <div class="contact">
+        <div class="container">
+          <div class="row"></div>
           <div class="titulo">
             <h1>CONTACT US</h1>
             <P><em>Lorem ipsum dolor sit amet consectetur.</em></P>
@@ -203,7 +210,7 @@
           <button class="btn btn-default">SEND MESSAGE</button>
         </div>
       </div>
-    </div>
+    </section>
     <div id="pie-pagina"></div>
     <div class="pie-pagina">
       <div class="container">
