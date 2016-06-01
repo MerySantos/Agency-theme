@@ -12,17 +12,58 @@
 }
 
 .menu {
-  margin-top: 35px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background: none;
+  display: none;
 }
 
-.menu a {
+@media screen and (min-width: 750px) {
+  .menu {
+    display: flex;
+  }
+  .menu li {
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+.menu li {
+  flex: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.menu li:last-child {
+  border: none;
+}
+
+.menu .link-menu {
   color: #fff;
-  padding: 5px 10px;
+  text-decoration: none;
+  line-height: 2;
+  font-size: 1.5em;
+  display: block;
 }
 
-.menu a:hover {
-  color: #FED136;
-  text-decoration: none;
+.menu .link-menu:hover {
+  background: rgba(116, 163, 219, 0.5);
+}
+
+#toggle-menu {
+  background: #0171c0;
+  line-height: 2.5;
+  color: #fff;
+  font-size: 2em;
+  padding-left: 15em;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 750px) {
+  #toggle-menu {
+    display: none;
+  }
 }
 
 .header-descripcion .jumbotron {
